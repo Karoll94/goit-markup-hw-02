@@ -1,0 +1,14 @@
+body {
+    font-family: ;
+}
+.buttons-links .link:focus {
+    color: red;
+}
+
+.nav-links .link:active {
+    color: yellow;
+}
+
+.contacts:hover {
+    color:aquamarine
+}
