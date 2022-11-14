@@ -1,14 +1,88 @@
+:root {
+    --text-highlighting: #2196F3;;
+}
 body {
-    font-family: ;
-}
-.buttons-links .link:focus {
-    color: red;
+    color: #212121;
+    font-family: 'Roboto', 'Raleway', sans-serif;
 }
 
+/* Barra de navegación */
 .nav-links .link:active {
-    color: yellow;
+    color: var(--text-highlighting);
+}
+.link-webstudio{
+    color:#2196F3;
+    font-size: 26px;;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+.nav-links .link {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1em;
 }
 
-.contacts:hover {
-    color:aquamarine
+/* Botones de búsqueda */
+.buttons-links .link:focus {
+    color: var(--text-highlighting);
+}
+.buttons-links .link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6em;
+    cursor: pointer;
+}
+
+/* Tarjetas */
+.description-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2em;
+}
+
+.description {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+/* Contactos */
+.contacts-navbar:hover {
+    color: var(--text-highlighting);
+}
+.contacts-navbar {
+    color:#757575;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1em;
+}
+.contacts-footer:hover {
+    color: var(--text-highlighting);
+}
+.contacts-footer {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+
+/* Direccion de contactos */
+.address {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+
+/* Redes sociales */
+.social-networks .link:hover {
+    color: var(--text-highlighting);
+}
+
+/* Encuentrenos */
+.find-us {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.1em;
+    font-weight: 700;
 }
