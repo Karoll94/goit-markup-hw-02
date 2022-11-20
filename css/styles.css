@@ -29,6 +29,27 @@ a {
     text-decoration: none;
 }
 
+/* Seccion de beneficion del index */
+.benefits .title {
+    color: var(--primary-black-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+
+/* Sección a que nos dedicamos  */
+.section > h2 {
+    color: var(--primary-black-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1em;
+    
+}
+
+.benefits .description {
+    line-height: 1.7em;
+}
+
 .list {
     list-style: none;
 }
@@ -52,8 +73,8 @@ a {
 .nav-menu .page {
     color: var(--primary-black-color);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 2em;
+    font-size: 14px;
+    line-height: 1.1em;
     text-transform: capitalize;
 }
 
@@ -85,15 +106,26 @@ a {
     line-height: 1.3em;
 }
 
+.hero .button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.8em;
+    
+    
+}
+
 /* Sección del portafolio  */
 .portfolio .list li button {
     color: var(--primary-black-color);
     background-color: var(--text-white-opacity);
-
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 .portfolio .list li button:hover,
@@ -104,6 +136,10 @@ a {
 
 .portfolio-title {
     color: var(--primary-black-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+
 }
 
 .portfolio-text {
